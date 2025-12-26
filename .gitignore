@@ -1,0 +1,63 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Output files
+*_payoff_extraction.json
+extraction_results.json
+*.json.bak
+
+# PDF documents (may contain sensitive information)
+*.pdf
+
+# Personal files
+*.xlsx
+*.pptx
+One pager_self-intro.*
+
+# Setup scripts (not needed in repo)
+create_env.sh
+setup_deepseek.sh
+install_dependencies.sh
+run.sh
+
+# Documentation (keep only README.md)
+DEEPSEEK_SETUP.md
+ENV_SETUP.md
+QUICKSTART.md
+SETUP.md
+
+# OS
+.DS_Store
+Thumbs.db
