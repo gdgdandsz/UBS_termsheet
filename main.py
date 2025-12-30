@@ -4,7 +4,7 @@ Main script to run payoff extraction workflow
 import json
 import sys
 from pathlib import Path
-from payoff_extractor import PayoffExtractor
+from src.extractor import PayoffExtractor
 
 
 def main():
