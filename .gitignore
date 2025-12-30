@@ -1,5 +1,7 @@
 # Environment variables
 .env
+*.env
+LLM_variables.env
 
 # Python
 __pycache__/
@@ -37,6 +39,9 @@ wheels/
 *_payoff_extraction.json
 extraction_results.json
 *.json.bak
+results/
+test_results_*.json
+payoff_results_*.json
 
 # PDF documents (may contain sensitive information)
 *.pdf
